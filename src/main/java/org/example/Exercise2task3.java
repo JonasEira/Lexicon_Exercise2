@@ -1,12 +1,11 @@
 package org.example;
 
-import java.util.Collection;
 import java.util.Arrays;
 
-public class SortAnArrayClass {
+public class Exercise2task3 {
     public String[] myStringArray;
 
-    public SortAnArrayClass(){
+    public Exercise2task3(){
         myStringArray = new String[]{
                 "Ett",
                 "Två",
@@ -15,10 +14,7 @@ public class SortAnArrayClass {
         this.sortArray();
     }
 
-    public void setMyStringArray(String[] arr){
-        this.myStringArray = Arrays.copyOf(arr, arr.length);
 
-    }
 
     public void sortArray(){
         Arrays.sort(this.myStringArray);

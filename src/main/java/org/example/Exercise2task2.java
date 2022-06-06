@@ -1,7 +1,7 @@
 package org.example;
 
-public class MyTestClass1 {
-    public MyTestClass1(){
+public class Exercise2task2 {
+    public Exercise2task2(){
         int[] testArray = new int[]{
                 1,5,3,4,2
         };
