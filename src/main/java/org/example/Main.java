@@ -21,5 +21,15 @@ public class Main {
         for(int n = 0; n < test4.getStrArr().length; n++){
             System.out.println(test4.getStrArr()[n]);
         }
+
+        Exercise2task5 test5 = new Exercise2task5();
+        test5.populateDefault();
+        for(int n = 0; n < test5.getArray().length; n++){
+            String[] tmp = test5.getArray()[n];
+            for(int j = 0; j < tmp.length; j++){
+                System.out.print(tmp[j]+ " ");
+            }
+            System.out.print("\n");
+        }
     }
 }
