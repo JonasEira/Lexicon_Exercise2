@@ -10,6 +10,10 @@ public class Main {
         }
 
         MyTestClass1 test1 = new MyTestClass1();
-
+        SortAnArrayClass sortArr = new SortAnArrayClass();
+        sortArr.sortArray();
+        for(String s : sortArr.myStringArray){
+            System.out.println(s);
+        }
     }
 }
