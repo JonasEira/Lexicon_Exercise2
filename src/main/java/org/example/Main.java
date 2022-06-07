@@ -37,5 +37,8 @@ public class Main {
 
         Exercise2task7 test7 = new Exercise2task7();
         test7.printUneven();
+
+        Exercise2task8 test8 = new Exercise2task8();
+
     }
 }
