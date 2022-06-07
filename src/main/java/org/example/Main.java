@@ -35,5 +35,7 @@ public class Main {
         Exercise2task6 test6 = new Exercise2task6(new int[]{43, 5, 23, 17, 2, 14});
         System.out.println("Average = " + test6.average());
 
+        Exercise2task7 test7 = new Exercise2task7();
+        test7.printUneven();
     }
 }
