@@ -40,5 +40,14 @@ public class Main {
 
         Exercise2task8 test8 = new Exercise2task8();
 
+        Exercise2task13 task13 = new Exercise2task13();
+        int[] test = task13.sortArray();
+        int position = 0;
+        System.out.println();
+        for(int value : test){
+            System.out.print(position++ + ":(" + value + ")\t");
+            if(position % 10 == 0)
+                System.out.println('\n');
+        }
     }
 }
